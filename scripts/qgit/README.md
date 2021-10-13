@@ -30,14 +30,15 @@ Example:
 # Install
 
 You can run the following command, which contains all the necessary steps.<br/>
-notes: currently `qgit` only supports **Mac OS**
+notes: currently `qgit` only supports **Mac OS**<br/>
+notes: **`qgit qinit` will be executed automatically after installation**
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/SFCMN/qier/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit
+curl -LJO https://raw.githubusercontent.com/SFCMN/qier/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit && qgit qinit
 ```
 
 **Chinese users can use the following command to install:**
 
 ```bash
-curl -LJO https://gitee.com/sfcmn/qier/raw/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit
+curl -LJO https://gitee.com/sfcmn/qier/raw/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit && qgit qinit
 ```
