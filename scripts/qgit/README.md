@@ -35,3 +35,9 @@ notes: currently `qgit` only supports **Mac OS**
 ```bash
 curl -LJO https://raw.githubusercontent.com/SFCMN/qier/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit
 ```
+
+**Chinese users can use the following command to install:**
+
+```bash
+curl -LJO https://gitee.com/sfcmn/qier/raw/main/scripts/qgit/qgit && chmod +x ./qgit && mv ./qgit /usr/local/bin/qgit
+```
