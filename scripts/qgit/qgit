@@ -50,9 +50,10 @@ then
       then
         generated_command=${side}
       else
-        generated_command=${INPUT_PARAMS// - / $side }
+        generated_command=${INPUT_PARAMS/#- /$side }
+        generated_command=${generated_command// - / $side }
+        generated_command=${generated_command//\ -\//\ $side\/}
         generated_command=${generated_command/% -/ $side}
-        generated_command=${generated_command/#- /$side }
       fi
 
       eval "git ${generated_command}"
