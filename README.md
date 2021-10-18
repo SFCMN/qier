@@ -6,4 +6,4 @@ A tool set to simplify command line operations.
 
 |          Name           |                                                          Tags                                                          |                                          Description                                           |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [qgit](./scripts/qgit/) | [![qgit version](https://img.shields.io/badge/version-2.1.0-blue)](https://github.com/SFCMN/qier/tree/main/scripts/qgit) | Easily execute the same operation on multiple git remotes. (**Currently only support Mac OS**) |
+| [qgit](./scripts/qgit/) | [![qgit version](https://img.shields.io/badge/version-2.1.1-blue)](https://github.com/SFCMN/qier/tree/main/scripts/qgit) | Easily execute the same operation on multiple git remotes. (**Currently only support Mac OS**) |
